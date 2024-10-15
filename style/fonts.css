@@ -1,0 +1,123 @@
+@font-face {
+    font-family: 'FontAwesome Brands';
+    src: url("../icon/webfonts/fa-brands-400.ttf");
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'FontAwesome Duotone';
+    src: url("../icon/webfonts/fa-duotone-900.ttf");
+    font-weight: 900;
+}
+
+@font-face {
+    font-family: 'FontAwesome';
+    src: url("../icon/webfonts/fa-light-300.ttf");
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: 'FontAwesome';
+    src: url("../icon/webfonts/fa-regular-400.ttf");
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'FontAwesome';
+    src: url("../icon/webfonts/fa-solid-900.ttf");
+    font-weight: 900;
+}
+
+.fas {
+    font-family: 'FontAwesome';
+    font-weight: 900;
+}
+
+.far {
+    font-family: 'FontAwesome';
+    font-weight: 400;
+}
+
+.fal {
+    font-family: 'FontAwesome';
+    font-weight: 300;
+}
+
+.fad {
+    font-family: 'FontAwesome Duotone';
+    font-weight: 900;
+}
+
+.fab {
+    font-family: 'FontAwesome Brands';
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url(../fonts/Open_Sans/OpenSans-Bold.ttf);
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url(../fonts/Open_Sans/OpenSans-Medium.ttf);
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url(../fonts/Open_Sans/OpenSans-Regular.ttf);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url(../fonts/Open_Sans/OpenSans_Condensed-Light.ttf);
+    font-weight: 300;
+}
+
+
+.phone::before{
+    content: '\f879';
+    color: #FFFFFF;
+    font-style: normal;
+    font-size: 15px;
+    margin-right: -15px;
+}
+
+.adress::before{
+    content: '\f3c5';
+    color: #FFFFFF;
+    font-style: normal;
+    font-size: 15px;
+    margin-right: -15px;
+}
+
+.telegram::before{
+    content: '\f3fe';
+    color: #FFFFFF;
+    font-style: normal;
+    font-size: 17px;
+    margin-right: -15px;
+}
+
+
+.left::before{
+    content: '\f104';
+    color: #fff;
+    font-style: normal;
+    font-size: 25px;
+}
+.right::before{
+    content: '\f105';
+    color: #fff;
+    font-style: normal;
+    font-size: 25px;
+}
+
+.accordion__angel::before {
+    content: '\f0d7';
+    font-style: normal;
+    font-size: 30px;
+}
